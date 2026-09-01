@@ -16,6 +16,8 @@ import ParticleCanvas from "@/components/ParticleCanvas";
 import CustomCursor from "@/components/CustomCursor";
 import LoadingScreen from "@/components/LoadingScreen";
 import SmoothScroll from "@/components/SmoothScroll";
+import SocialSection from "@/components/SocialSection";
+import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
   return (
@@ -37,11 +39,13 @@ export default function Home() {
           <ProcessSection />
           <TestimonialsSection />
           <VisitBanner />
+          <SocialSection />
           <ContactSection />
         </main>
         <Footer />
       </SmoothScroll>
       <FloatingCTA />
+      <BackToTop />
     </>
   );
 }
